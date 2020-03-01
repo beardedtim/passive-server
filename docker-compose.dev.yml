@@ -1,0 +1,7 @@
+version: "3"
+services:
+  eventstore:
+    image: influxdb
+    container_name: eventstore
+    ports:
+      - "8086:8086"
